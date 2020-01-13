@@ -2,7 +2,7 @@
 source shell-functions.sh
 source bed-levelling-assistant.conf
 
-begin gcode/${NAME}_bed-levelling-assistant.gcode
+begin gcode/${NAME}_bed-leveling-assistant.gcode
 
 function move_to(){
   M117 Moving to X${1} Y${2}
